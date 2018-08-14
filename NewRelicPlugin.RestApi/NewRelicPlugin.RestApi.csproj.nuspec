@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NewRelicPlugin.RestApi</id>
+    <version>0.0.2</version>
+    <authors>aschaible</authors>
+    <owners>aschaible</owners>
+    <licenseUrl>https://github.com/aschaible/NewRelic.Plugin</licenseUrl>
+    <projectUrl>https://github.com/aschaible/NewRelic.Plugin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET Library for the NewRelic Plugin API</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>NewRelic</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="11.0.2" />
+    </dependencies>
+  </metadata>
+</package>
