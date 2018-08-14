@@ -50,6 +50,6 @@ namespace NewRelicPlugin.RestApi.Tests
             Assert.IsTrue(postMetricResponse.IsSuccessStatusCode);
         }
 
-        private NewRelicClient GetNewRelicClient => new NewRelicClient("7221347e305504c04e46f50f9e2f51cc3e358a81");
+        private NewRelicClient GetNewRelicClient => new NewRelicClient("abc123");
     }
 }

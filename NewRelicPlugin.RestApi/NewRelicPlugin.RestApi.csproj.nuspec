@@ -2,10 +2,10 @@
 <package >
   <metadata>
     <id>NewRelicPlugin.RestApi</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <authors>aschaible</authors>
     <owners>aschaible</owners>
-    <licenseUrl>https://github.com/aschaible/NewRelic.Plugin</licenseUrl>
+    <licenseUrl>https://github.com/aschaible/NewRelicPlugin</licenseUrl>
     <projectUrl>https://github.com/aschaible/NewRelic.Plugin</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>.NET Library for the NewRelic Plugin API</description>

@@ -1,8 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>netcoreapp2.1;net45;net46;net47</TargetFrameworks>
+    <PackageVersion>0.0.3</PackageVersion>
+    <Authors>aschaible</Authors>
+    <Owners>aschaible</Owners>
+    <PackageLicenseUrl>https://github.com/aschaible/NewRelicPlugin</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/aschaible/NewRelicPlugin</PackageProjectUrl>
+    <PackageTags>NewRelic</PackageTags>
+    <Description>.NET Library for the NewRelic Plugin API</Description>
+    <PackageReleaseNotes>Added multiple target platforms</PackageReleaseNotes>
+    <Version>0.0.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>2018</Copyright>
+    <RepositoryUrl>https://github.com/aschaible/NewRelicPlugin</RepositoryUrl>
+    <NeutralLanguage>en-AS</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)'=='net45' OR '$(TargetFramework)'=='net46' OR '$(TargetFramework)'=='net47'">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
